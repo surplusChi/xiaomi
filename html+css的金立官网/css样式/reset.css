@@ -1,0 +1,5 @@
+body,div,dl,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,taxt
+body{padding: 0;margin: 0;text-align: center;color: #333;font-size: 14px;font-family: "宋体",arial;}
+li{list-style-type: none;}
+a{text-decoration: none;}
+img,input{border: none;vertical-align: middle;}

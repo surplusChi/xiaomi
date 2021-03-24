@@ -1,0 +1,369 @@
+/*导航栏样式*/
+.nav{
+    width: 100%;
+    height: 104px;
+    border-bottom: 1px solid #d5d5d5;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1000000;
+}
+.wrap{
+    width: 1190px;
+    height: 105px;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 25px;
+}
+.logo,.text{
+    float: left;
+}
+.logo>img{
+    width: 200px;
+    height: 51px;
+}
+.text{
+    width: 990px;
+    height: 104px;
+}
+.top{
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+    margin-bottom: 23px;
+}
+.top ul{
+    float: right;
+}
+.top ul li{
+    float: left;
+    margin-right: 10PX;
+}
+.top ul a{
+    color: #9f9f9f;
+}
+.top ul li:first-child a{
+    color:#ef4222;
+}
+.top ul li a:hover{
+    color:#ef4222;
+}
+.bottom{
+    width: 100%;
+    height: 52px;
+}
+.bottom ul{
+    float: right;
+}
+.bottom ul li{
+    float: left;
+    /*width: 84px;*/
+    height: 30px;
+    margin-right: 52px;
+}
+.bottom ul li a{
+    color: #000;
+    font-weight: bolder;
+    font-size: 16px;
+    /*font-family: Microsoft YaHei;*/
+}
+.bottom ul li a:hover{
+    color:#ef4222;
+}
+.sou{
+    width: 170px;
+    height: 30px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding-left: 5px;
+    margin-left: 100px;
+}
+.sou>input{
+    width: 138px;
+    height: 28px;
+    float: left;
+}
+.sou>button{
+    width: 25px;
+    height: 28px;
+    float: left;
+    background-color: #fff;
+    border: none;
+}
+/*手机隐藏区域样式*/
+.phone_hidden{
+    width: 100%;
+    height: 315px;
+    position: absolute;
+    top: 105px;
+    left: 0px;
+    background-color: #ffffff;
+    display: none;
+}
+.bottom .phone:hover .phone_hidden{
+    display: block;
+}
+.phone_hidden div{
+    float: left;
+}
+.zuixin{
+    width: 200px;
+    height: 315px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.zuixin ul>li{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    font-family: "宋体", arial;
+}
+/*.Mxilie{*/
+/*    width: 200px;*/
+/*    height: 315px;*/
+/*    margin-left: 100px;*/
+/*    margin-top: 30px;*/
+/*}*/
+/*轮播图样式*/
+.lunbotu{
+    width: 100%;
+    height: 640px;
+    background-image: url("../jinli_images/lunbotu1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 105px;
+    -webkit-animation: lunbotu 10s infinite alternate;
+}
+@-webkit-keyframes lunbotu {
+    0%{
+        background-image: url("../jinli_images/lunbotu1.jpg");
+    }
+    20%{
+        background-image: url("../jinli_images/lunbotu2.jpg");
+    }
+    40%{
+        background-image: url("../jinli_images/lunbotu3.jpg");
+    }
+    60%{
+        background-image: url("../jinli_images/lunbotu4.jpg");
+    }
+    80%{
+        background-image: url("../jinli_images/lunbotu5.jpg");
+    }
+    100%{
+        background-image: url("../jinli_images/lunbotu6.jpg");
+    }
+    
+}
+
+/*明星产品样式*/
+.star{
+    width: 100%;
+    height: 451px;
+    background-color: #ffffff;
+}
+.star p{
+    padding: 40px 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.star img{
+    width: 390px;
+    height: 266px;
+}
+/*热卖推荐样式*/
+.general{
+    width: 100%;
+    height: 913px;
+    background-color: #e5e5e5;
+}
+.general-a{
+    width: 1196px;
+    height: 913px;
+    margin: 0 auto;
+}
+.general-a>p{
+    padding: 40px 0 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+    margin: 0 0;
+}
+.general-a>a{
+    float:right;
+    text-align: right;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+.general-a>a:hover{
+    color: #ef4222;
+}
+.zhongjiao{
+    width: 1196px;
+    height: 790px;
+    margin-top: 45px;
+}
+.big{
+    width: 315px;
+    height: 785px;
+    float: left;
+}
+.big:hover{
+    box-shadow: -5px -5px 5px #9f9f9f;
+}
+.combination{
+	width: 881px;
+	height: 785px;
+	float: left;
+}
+.combination ul>li{
+	margin-right: 5px;
+  	margin-bottom: 5px;
+	width: 288px;
+	height: 390px;
+	background-color: #fff;
+	float: left;
+
+}
+.combination ul li>img{
+    width: 120px;
+    height: 240px;
+    padding-top: 20px;
+    transition: 1s;
+}
+.combination ul li:hover img:nth-child(1){
+	background-size: 120px 240px;
+	background-repeat: no-repeat;
+	transform: translate(40px,0);
+}
+.combination ul li:hover img:nth-child(2){
+	background-size: 120px 240px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	transform: translate(-40px,0);
+}
+.combination ul li img:nth-child(1){
+	position:relative;
+	left: 80px;
+	top: 0;
+	z-index: 100;
+   /* display:none;*/
+ }
+.combination ul li img:nth-child(2){
+	position:relative;
+	left: -50px;
+	top: 0;
+   /* display:none;*/
+ }
+.hr-title{
+	color: #0f0e0e;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Microsoft YaHei";
+}
+.hr-detail{
+	color: #9E9E9E;
+	font-size: 14px;
+	padding-top: 3px;
+	font-family: "Microsoft YaHei";
+}
+.hr-price{
+	font-size: 22px;
+	font-weight: bolder;
+	padding-right: 2px;
+	color: #fe6a00;
+	font-family: "Microsoft YaHei";
+}
+/*精品配件*/
+.zhongjiao_2{
+	 width: 1196px;
+    height: 790px;
+    margin-top: 45px;
+}
+.zhongjiao_2 ul>li{
+	widows: 368px;
+	height: 343px;
+	margin-right: 12px;
+	margin-bottom: 16px;
+	float: left;
+	transition: all ease-in .3s;
+}
+.hr{
+	position: relative;
+    top: -130px;
+    width: 100%;
+    text-align: center;
+}
+/*品牌动态样式*/
+.general-q{
+	width: 100%;
+    height: 518px;
+    background-color: #FFFFFF;
+}
+.general-b{
+	width: 1196px;
+	height: 394px;
+    margin: 0 auto;
+}
+.general-q>p{
+    padding: 40px 0 40px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+    margin: 0 0;
+}
+.general-b>img{
+	margin-right: 7px;
+	margin-bottom: 12px;
+}
+/*底部栏样式*/
+.g_af{
+	width: 100%;
+	height: 576px;
+	padding-top: 40px;
+}
+.g_af1{
+	width: 100%;
+	height: 47;
+	padding-bottom: 40px;
+}
+.g_af1 ul>li{
+	float: left;
+	width: 200px;
+	height: 46px;
+	padding-left: 100px;
+}
+.g_af1 ul li>img{
+	width: 46px;
+	height: 46px;
+}
+.g_af2{
+	padding: 30px 0;
+	width: 1190px;
+	height: 291px;
+	margin: 0 auto;
+}
+.g_af2>dl{
+   float: left;
+   width: 18%;
+   line-height: 33px;
+   color: #777;
+   text-align: left;
+}
+.g_af2 dl>dt{
+	font-size: 16px;
+}
+.g_af2 dl>dd{
+	font-size: 12px;
+	 text-align: left;
+}
+
